@@ -19,6 +19,7 @@ public class Demo {
 	public static void main(String[] args) {
 		testDevice(new TV());
 		testDevice(new Radio());
+		testDevice(new MP3Player());
 	}
 
 	private static void testDevice(Device dev) {
