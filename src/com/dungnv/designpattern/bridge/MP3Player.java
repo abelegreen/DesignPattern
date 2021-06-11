@@ -3,7 +3,8 @@ package com.dungnv.designpattern.bridge;
 public class MP3Player implements Device {
 	
 	/**
-	 * Add more device for testing
+	 * Add more device for testing.
+	 * This is a test comment.
 	 */
 	private boolean on = false;
     private int volume = 10;
