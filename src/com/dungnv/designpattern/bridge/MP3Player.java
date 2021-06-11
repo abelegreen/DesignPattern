@@ -1,7 +1,10 @@
 package com.dungnv.designpattern.bridge;
 
 public class MP3Player implements Device {
-
+	
+	/**
+	 * Add more device for testing
+	 */
 	private boolean on = false;
     private int volume = 10;
     private int channel = 1;
